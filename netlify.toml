@@ -1,9 +1,9 @@
 [build]
-  publish = "index.html"
+  publish = "."
 
 [functions]
   directory = "functions"
-  
+
 [[redirects]]
   from = "/favicon.ico"
   to = "/404"
