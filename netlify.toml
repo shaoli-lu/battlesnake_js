@@ -1,2 +1,6 @@
 [functions]
   directory = "functions"
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/404"
+  status = 404
