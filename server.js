@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 const app = express();
 export default function runServer(handlers) {
   const app = express();
