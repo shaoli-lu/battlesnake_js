@@ -15,6 +15,7 @@
     "url": "https://github.com/shaoli-lu/battlesnake_js.git"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "netlify-lambda": "^2.0.16"
   }
 }

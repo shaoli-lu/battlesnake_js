@@ -8,3 +8,7 @@
   from = "/favicon.ico"
   to = "/404"
   status = 404
+
+[build]
+  command = "netlify-lambda build server.js"
+  publish = "."
