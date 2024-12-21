@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Battlesnake Game</title>
+  <style>
+    #board {
+      display: grid;
+      grid-template-columns: repeat(11, 1fr);
+      grid-template-rows: repeat(11, 1fr);
+      width: 200px;
+      height: 200px;
+    }
+    #board > div {
+      border: 1px solid black;
+    }
+    #score {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="board"></div>
+  <div id="score"></div>
+
+  <script src="battlesnake.js"></script>
+</body>
+</html>
